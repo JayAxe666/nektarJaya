@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.19/bin/CC -O3 -DNDEBUG -DNEKTAR_RELEASE  -pthread CMakeFiles/APESolver.dir/APESolver.cpp.o -o APESolver  -Wl,-rpath,/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/5.6.0/lib64/nektar++:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 

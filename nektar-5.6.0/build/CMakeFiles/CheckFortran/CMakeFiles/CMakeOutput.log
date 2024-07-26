@@ -1,0 +1,249 @@
+The system is: Linux - 5.14.21-150400.24.46_12.0.70-cray_shasta_c - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /opt/cray/pe/craype/2.7.19/bin/ftn 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+
+/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/ftnfe -h cpu=x86-rome -h network=ofi -D__CRAY_X86_ROME -D__CRAYXT_COMPUTE_LINUX_TARGET -I/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include -I/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs -I/usr/include -I/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -I/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -I/opt/cray/pe/dsmml/0.2.2/dsmml//include -I/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -I/usr/include -hpl=/tmp/pe_155974//pldir -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libmodules.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libomp.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/omp_lib.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libopenacc.a -usystem_mod=/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -usystem_mod=/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -usystem_mod=/opt/cray/pe/dsmml/0.2.2/dsmml//include -usystem_mod=/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libcraymp.a -udv -ffixed -CZ/tmp/pe_155974/CMakeFortranCompilerId.T -Cx -CX/tmp/pe_155974/CMakeFortranCompilerId.xml -hdecompile=/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/3.20.4/CompilerIdFortran/CMakeFortranCompilerId. -S /tmp/pe_155974/CMakeFortranCompilerId_1.s -Oipa3 -uo=/tmp/pe_155974/CMakeFortranCompilerId.o -ufile_id=1 CMakeFortranCompilerId.F
+
+/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/optcg /tmp/pe_155974//pldir 1
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/as -o /tmp/pe_155974/CMakeFortranCompilerId_1.o --64 /tmp/pe_155974/CMakeFortranCompilerId_1.s
+rm /tmp/pe_155974/CMakeFortranCompilerId_1.s
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld --eh-frame-hdr -m elf_x86_64 --enable-new-dtags --dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib64//crt1.o /usr/lib64//crti.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o /tmp/pe_155974/CMakeFortranCompilerId_1.o -Bdynamic -rpath=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -rpath=/opt/cray/pe/gcc-libs -L/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib -L/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib -L/opt/cray/pe/dsmml/0.2.2/dsmml//lib -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64 --as-needed -lsci_cray_mpi --no-as-needed --as-needed -lsci_cray --no-as-needed -ldl --as-needed -lmpifort_cray --no-as-needed --as-needed -lmpi_cray --no-as-needed --as-needed -ldsmml --no-as-needed -lxpmem --as-needed -lstdc++ --no-as-needed --as-needed -lpgas-shmem --no-as-needed -lquadmath -lmodules -lfi -lcraymath -lf -lu -lcsup --as-needed -lgfortran --no-as-needed --whole-archive -ltcmalloc_minimal --no-whole-archive -lstdc++ -lpthread -L/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux --start-group -lc -lcsup -lgcc_eh -lm -lclang_rt.craypgo-x86_64 -lgcc --end-group -lclang_rt.builtins-x86_64 --disable-new-dtags -L/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0 -L/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib -EL /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o /usr/lib64//crtn.o
+rm /tmp/pe_155974/CMakeFortranCompilerId_1.o
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/bin/objcopy --remove-section=.note.ftn_module_data a.out
+rm /tmp/pe_155974//CMakeFortranCompilerId_1.xml.Ttmp
+rm /tmp/pe_155974//CMakeFortranCompilerId_1.cif.Ttmp
+rm /tmp/pe_155974//CMakeFortranCompilerId.Tfe
+rm /tmp/pe_155974//CMakeFortranCompilerId.T
+rm /tmp/pe_155974//CMakeFortranCompilerId.xml
+rm /tmp/pe_155974//pldir/iline_1
+rm /tmp/pe_155974//pldir/gline_1
+rm /tmp/pe_155974//pldir/CMakeFortranCompilerId_1.inl
+rm /tmp/pe_155974//pldir/PL_path
+rm /tmp/pe_155974//pldir/PL_module_list
+rm /tmp/pe_155974//pldir/PL_global_data
+rmdir /tmp/pe_155974//pldir
+rmdir /tmp/pe_155974/
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is Cray, found in "/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/3.20.4/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_302eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_302eb.dir/build.make CMakeFiles/cmTC_302eb.dir/build
+gmake[1]: Entering directory '/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o
+/opt/cray/pe/craype/2.7.19/bin/ftn   -em -J.   -v -c /usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o
+
+/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/ftnfe -h cpu=x86-rome -h network=ofi -D__CRAY_X86_ROME -D__CRAYXT_COMPUTE_LINUX_TARGET -em -J. -I/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include -I/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs -I/usr/include -I/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -I/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -I/opt/cray/pe/dsmml/0.2.2/dsmml//include -I/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -I/usr/include -hpl=/tmp/pe_156167//pldir -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libmodules.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libomp.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/omp_lib.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libopenacc.a -usystem_mod=/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -usystem_mod=/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -usystem_mod=/opt/cray/pe/dsmml/0.2.2/dsmml//include -usystem_mod=/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libcraymp.a -udv -ffixed -CZ/tmp/pe_156167/CMakeFortranCompilerABI.T -Cx -CX/tmp/pe_156167/CMakeFortranCompilerABI.xml -hdecompile=/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI. -S /tmp/pe_156167/CMakeFortranCompilerABI_1.s -Oipa3 -uo=/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -ufile_id=1 /usr/share/cmake/Modules/CMakeFortranCompilerABI.F
+
+/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/optcg /tmp/pe_156167//pldir 1
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/as -o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o --64 /tmp/pe_156167/CMakeFortranCompilerABI_1.s
+rm /tmp/pe_156167/CMakeFortranCompilerABI_1.s
+rm /tmp/pe_156167//CMakeFortranCompilerABI_1.xml.Ttmp
+rm /tmp/pe_156167//CMakeFortranCompilerABI_1.cif.Ttmp
+rm /tmp/pe_156167//CMakeFortranCompilerABI.Tfe
+rm /tmp/pe_156167//CMakeFortranCompilerABI.T
+rm /tmp/pe_156167//CMakeFortranCompilerABI.xml
+rm /tmp/pe_156167//pldir/iline_1
+rm /tmp/pe_156167//pldir/gline_1
+rm /tmp/pe_156167//pldir/CMakeFortranCompilerABI_1.inl
+rm /tmp/pe_156167//pldir/PL_path
+rm /tmp/pe_156167//pldir/PL_module_list
+rm /tmp/pe_156167//pldir/PL_global_data
+rmdir /tmp/pe_156167//pldir
+rmdir /tmp/pe_156167/
+Linking Fortran executable cmTC_302eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302eb.dir/link.txt --verbose=1
+/opt/cray/pe/craype/2.7.19/bin/ftn  -v CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -o cmTC_302eb 
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld --eh-frame-hdr -m elf_x86_64 --enable-new-dtags --dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib64//crt1.o /usr/lib64//crti.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -Bdynamic -rpath=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -rpath=/opt/cray/pe/gcc-libs -L/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib -L/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib -L/opt/cray/pe/dsmml/0.2.2/dsmml//lib -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64 --as-needed -lsci_cray_mpi --no-as-needed --as-needed -lsci_cray --no-as-needed -ldl --as-needed -lmpifort_cray --no-as-needed --as-needed -lmpi_cray --no-as-needed --as-needed -ldsmml --no-as-needed -lxpmem --as-needed -lstdc++ --no-as-needed --as-needed -lpgas-shmem --no-as-needed -lquadmath -lmodules -lfi -lcraymath -lf -lu -lcsup --as-needed -lgfortran --no-as-needed --whole-archive -ltcmalloc_minimal --no-whole-archive -lstdc++ -lpthread -L/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux --start-group -lc -lcsup -lgcc_eh -lm -lclang_rt.craypgo-x86_64 -lgcc --end-group -lclang_rt.builtins-x86_64 --disable-new-dtags -L/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0 -L/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib -EL -o cmTC_302eb /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o /usr/lib64//crtn.o
+
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/bin/objcopy --remove-section=.note.ftn_module_data cmTC_302eb
+rm /tmp/pe_156200//pldir/PL_path
+rm /tmp/pe_156200//pldir/PL_module_list
+rm /tmp/pe_156200//pldir/PL_global_data
+rmdir /tmp/pe_156200//pldir
+rmdir /tmp/pe_156200/
+gmake[1]: Leaving directory '/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  got implicit includes via cray ccfe parser!
+  collapse include dir [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include] ==> [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include]
+  collapse include dir [/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs] ==> [/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include] ==> [/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include]
+  collapse include dir [/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include] ==> [/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include]
+  collapse include dir [/opt/cray/pe/dsmml/0.2.2/dsmml//include] ==> [/opt/cray/pe/dsmml/0.2.2/dsmml/include]
+  collapse include dir [/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include] ==> [/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include;/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs;/usr/include;/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include;/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include;/opt/cray/pe/dsmml/0.2.2/dsmml/include;/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_302eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_302eb.dir/build.make CMakeFiles/cmTC_302eb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/opt/cray/pe/craype/2.7.19/bin/ftn   -em -J.   -v -c /usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: []
+  ignore line: [/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/ftnfe -h cpu=x86-rome -h network=ofi -D__CRAY_X86_ROME -D__CRAYXT_COMPUTE_LINUX_TARGET -em -J. -I/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/include -I/opt/cray/pe/cce/15.0.0/cce/x86_64/include/craylibs -I/usr/include -I/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -I/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -I/opt/cray/pe/dsmml/0.2.2/dsmml//include -I/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -I/usr/include -hpl=/tmp/pe_156167//pldir -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libmodules.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libomp.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/omp_lib.a -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libopenacc.a -usystem_mod=/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/include -usystem_mod=/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/include -usystem_mod=/opt/cray/pe/dsmml/0.2.2/dsmml//include -usystem_mod=/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/include -usystem_mod=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/libcraymp.a -udv -ffixed -CZ/tmp/pe_156167/CMakeFortranCompilerABI.T -Cx -CX/tmp/pe_156167/CMakeFortranCompilerABI.xml -hdecompile=/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI. -S /tmp/pe_156167/CMakeFortranCompilerABI_1.s -Oipa3 -uo=/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -ufile_id=1 /usr/share/cmake/Modules/CMakeFortranCompilerABI.F]
+  ignore line: []
+  ignore line: [/opt/cray/pe/cce/15.0.0/cce/x86_64/bin/optcg /tmp/pe_156167//pldir 1]
+  ignore line: []
+  ignore line: [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/as -o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o --64 /tmp/pe_156167/CMakeFortranCompilerABI_1.s]
+  ignore line: [rm /tmp/pe_156167/CMakeFortranCompilerABI_1.s]
+  ignore line: [rm /tmp/pe_156167//CMakeFortranCompilerABI_1.xml.Ttmp]
+  ignore line: [rm /tmp/pe_156167//CMakeFortranCompilerABI_1.cif.Ttmp]
+  ignore line: [rm /tmp/pe_156167//CMakeFortranCompilerABI.Tfe]
+  ignore line: [rm /tmp/pe_156167//CMakeFortranCompilerABI.T]
+  ignore line: [rm /tmp/pe_156167//CMakeFortranCompilerABI.xml]
+  ignore line: [rm /tmp/pe_156167//pldir/iline_1]
+  ignore line: [rm /tmp/pe_156167//pldir/gline_1]
+  ignore line: [rm /tmp/pe_156167//pldir/CMakeFortranCompilerABI_1.inl]
+  ignore line: [rm /tmp/pe_156167//pldir/PL_path]
+  ignore line: [rm /tmp/pe_156167//pldir/PL_module_list]
+  ignore line: [rm /tmp/pe_156167//pldir/PL_global_data]
+  ignore line: [rmdir /tmp/pe_156167//pldir]
+  ignore line: [rmdir /tmp/pe_156167/]
+  ignore line: [Linking Fortran executable cmTC_302eb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302eb.dir/link.txt --verbose=1]
+  ignore line: [/opt/cray/pe/craype/2.7.19/bin/ftn  -v CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -o cmTC_302eb ]
+  ignore line: []
+  link line: [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld --eh-frame-hdr -m elf_x86_64 --enable-new-dtags --dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib64//crt1.o /usr/lib64//crti.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o /opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o -Bdynamic -rpath=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -rpath=/opt/cray/pe/gcc-libs -L/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib -L/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib -L/opt/cray/pe/dsmml/0.2.2/dsmml//lib -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/gcc/10.3.0/snos/lib64 -L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../ -L/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64 --as-needed -lsci_cray_mpi --no-as-needed --as-needed -lsci_cray --no-as-needed -ldl --as-needed -lmpifort_cray --no-as-needed --as-needed -lmpi_cray --no-as-needed --as-needed -ldsmml --no-as-needed -lxpmem --as-needed -lstdc++ --no-as-needed --as-needed -lpgas-shmem --no-as-needed -lquadmath -lmodules -lfi -lcraymath -lf -lu -lcsup --as-needed -lgfortran --no-as-needed --whole-archive -ltcmalloc_minimal --no-whole-archive -lstdc++ -lpthread -L/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux --start-group -lc -lcsup -lgcc_eh -lm -lclang_rt.craypgo-x86_64 -lgcc --end-group -lclang_rt.builtins-x86_64 --disable-new-dtags -L/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0 -L/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib -EL -o cmTC_302eb /opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o /usr/lib64//crtn.o]
+    arg [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/usr/lib64//crt1.o] ==> obj [/usr/lib64//crt1.o]
+    arg [/usr/lib64//crti.o] ==> obj [/usr/lib64//crti.o]
+    arg [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o] ==> obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o]
+    arg [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o] ==> obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o]
+    arg [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o] ==> obj [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o]
+    arg [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o] ==> obj [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o]
+    arg [CMakeFiles/cmTC_302eb.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-rpath=/opt/cray/pe/cce/15.0.0/cce/x86_64/lib] ==> ignore
+    arg [-L/opt/cray/pe/gcc/10.3.0/snos/lib64] ==> dir [/opt/cray/pe/gcc/10.3.0/snos/lib64]
+    arg [-rpath=/opt/cray/pe/gcc-libs] ==> ignore
+    arg [-L/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib] ==> dir [/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib]
+    arg [-L/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib] ==> dir [/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib]
+    arg [-L/opt/cray/pe/dsmml/0.2.2/dsmml//lib] ==> dir [/opt/cray/pe/dsmml/0.2.2/dsmml//lib]
+    arg [-L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../] ==> dir [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../]
+    arg [-L/opt/gcc/10.3.0/snos/lib64] ==> dir [/opt/gcc/10.3.0/snos/lib64]
+    arg [-L/opt/cray/pe/gcc/10.3.0/snos/lib64] ==> dir [/opt/cray/pe/gcc/10.3.0/snos/lib64]
+    arg [-L/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../] ==> dir [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../]
+    arg [-L/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64] ==> dir [/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64]
+    arg [--as-needed] ==> ignore
+    arg [-lsci_cray_mpi] ==> lib [sci_cray_mpi]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lsci_cray] ==> lib [sci_cray]
+    arg [--no-as-needed] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [--as-needed] ==> ignore
+    arg [-lmpifort_cray] ==> lib [mpifort_cray]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpi_cray] ==> lib [mpi_cray]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-ldsmml] ==> lib [dsmml]
+    arg [--no-as-needed] ==> ignore
+    arg [-lxpmem] ==> lib [xpmem]
+    arg [--as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lpgas-shmem] ==> lib [pgas-shmem]
+    arg [--no-as-needed] ==> ignore
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lmodules] ==> lib [modules]
+    arg [-lfi] ==> lib [fi]
+    arg [-lcraymath] ==> lib [craymath]
+    arg [-lf] ==> lib [f]
+    arg [-lu] ==> lib [u]
+    arg [-lcsup] ==> lib [csup]
+    arg [--as-needed] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [--no-as-needed] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [-ltcmalloc_minimal] ==> lib [tcmalloc_minimal]
+    arg [--no-whole-archive] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-L/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux] ==> dir [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lcsup] ==> lib [csup]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lm] ==> lib [m]
+    arg [-lclang_rt.craypgo-x86_64] ==> lib [clang_rt.craypgo-x86_64]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--end-group] ==> ignore
+    arg [-lclang_rt.builtins-x86_64] ==> lib [clang_rt.builtins-x86_64]
+    arg [--disable-new-dtags] ==> ignore
+    arg [-L/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0] ==> dir [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0]
+    arg [-L/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib] ==> dir [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib]
+    arg [-EL] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_302eb] ==> ignore
+    arg [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o] ==> obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o]
+    arg [/usr/lib64//crtn.o] ==> obj [/usr/lib64//crtn.o]
+  remove lib [gcc_eh]
+  collapse obj [/usr/lib64//crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib64//crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtbegin.o] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtbegin.o]
+  collapse obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtfastmath.o] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtfastmath.o]
+  collapse obj [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0//crtend.o] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtend.o]
+  collapse obj [/usr/lib64//crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/opt/cray/pe/gcc/10.3.0/snos/lib64] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib64]
+  collapse library dir [/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib] ==> [/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib]
+  collapse library dir [/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib] ==> [/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib]
+  collapse library dir [/opt/cray/pe/dsmml/0.2.2/dsmml//lib] ==> [/opt/cray/pe/dsmml/0.2.2/dsmml/lib]
+  collapse library dir [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../] ==> [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib]
+  collapse library dir [/opt/gcc/10.3.0/snos/lib64] ==> [/opt/gcc/10.3.0/snos/lib64]
+  collapse library dir [/opt/cray/pe/gcc/10.3.0/snos/lib64] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib64]
+  collapse library dir [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/pkgconfig/../] ==> [/opt/cray/pe/cce/15.0.0/cce/x86_64/lib]
+  collapse library dir [/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64] ==> [/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64]
+  collapse library dir [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux] ==> [/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux]
+  collapse library dir [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0] ==> [/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0]
+  collapse library dir [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/..//x86_64-unknown-linux-gnu/lib] ==> [/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-unknown-linux-gnu/lib]
+  implicit libs: [sci_cray_mpi;sci_cray;dl;mpifort_cray;mpi_cray;dsmml;xpmem;stdc++;pgas-shmem;quadmath;modules;fi;craymath;f;u;csup;gfortran;tcmalloc_minimal;stdc++;pthread;c;csup;m;clang_rt.craypgo-x86_64;gcc;clang_rt.builtins-x86_64]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtbegin.o;/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtfastmath.o;/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/no_mmap.o;/opt/cray/pe/cce/15.0.0/cce/x86_64/lib/cce_floatingpt_au.o;/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/opt/cray/pe/gcc/10.3.0/snos/lib64;/opt/cray/pe/libsci/22.12.1.1/CRAY/9.0/x86_64/lib;/opt/cray/pe/mpich/8.1.23/ofi/cray/10.0/lib;/opt/cray/pe/dsmml/0.2.2/dsmml/lib;/opt/cray/pe/cce/15.0.0/cce/x86_64/lib;/opt/gcc/10.3.0/snos/lib64;/opt/cray/xpmem/2.5.2-2.4_3.30__gd0f7936.shasta/lib64;/opt/cray/pe/cce/15.0.0/cce-clang/x86_64/lib/clang/15.0.2/lib/linux;/opt/cray/pe/gcc/10.3.0/snos/lib/gcc/x86_64-suse-linux/10.3.0;/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-unknown-linux-gnu/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4108a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4108a.dir/build.make CMakeFiles/cmTC_4108a.dir/build
+gmake[1]: Entering directory '/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_4108a.dir/testFortranCompilerF90.f90.o
+/opt/cray/pe/craype/2.7.19/bin/ftn   -em -J. -c /mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_4108a.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_4108a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4108a.dir/link.txt --verbose=1
+/opt/cray/pe/craype/2.7.19/bin/ftn CMakeFiles/cmTC_4108a.dir/testFortranCompilerF90.f90.o -o cmTC_4108a 
+gmake[1]: Leaving directory '/mnt/lustre/a2fs-work2/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/CheckFortran/CMakeFiles/CMakeTmp'
+
+
+

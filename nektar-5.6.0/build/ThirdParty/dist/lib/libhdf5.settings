@@ -1,0 +1,94 @@
+        SUMMARY OF THE HDF5 CONFIGURATION
+        =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.12.3
+                  Configured on: 2024-07-10
+                  Configured by: Unix Makefiles
+                    Host system: Linux-5.14.21-150400.24.46_12.0.70-cray_shasta_c
+              Uname information: Linux
+                       Byte sex: little-endian
+             Installation point: /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/dist
+
+Compiling Options:
+------------------
+                     Build Mode: Release
+              Debugging Symbols: OFF
+                        Asserts: OFF
+                      Profiling: OFF
+             Optimization Level: OFF
+
+Linking Options:
+----------------
+                      Libraries: 
+  Statically Linked Executables: OFF
+                        LDFLAGS: 
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+                Extra libraries: m;dl
+                       Archiver: /opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ar
+                       AR_FLAGS: 
+                         Ranlib: /opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ranlib
+
+Languages:
+----------
+                              C: YES
+                     C Compiler: /opt/cray/pe/craype/2.7.19/bin/cc 15.0.2
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+                         CFLAGS:  -std=c99 
+                      H5_CFLAGS: -Wall;-Warray-bounds;-Wcast-qual;-Wconversion;-Wdouble-promotion;-Wextra;-Wformat=2;-Wframe-larger-than=16384;-Wimplicit-fallthrough;-Wnull-dereference;-Wunused-const-variable;-Wwrite-strings;-Wpedantic;-Wvolatile-register-var;-Wno-c++-compat;-Wbad-function-cast;-Wimplicit-function-declaration;-Wincompatible-pointer-types;-Wmissing-declarations;-Wpacked;-Wshadow;-Wswitch;-Wno-error=incompatible-pointer-types-discards-qualifiers;-Wunused-function;-Wunused-variable;-Wunused-parameter;-Wcast-align;-Wformat;-Wno-missing-noreturn
+                      AM_CFLAGS: 
+               Shared C Library: YES
+               Static C Library: YES
+
+                        Fortran: OFF
+               Fortran Compiler:  
+                  Fortran Flags: 
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: YES
+         Static Fortran Library: YES
+               Module Directory: /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/hdf5-1.12.3/mod
+
+                            C++: OFF
+                   C++ Compiler: /opt/cray/pe/craype/2.7.19/bin/CC 
+                      C++ Flags: 
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: YES
+             Static C++ Library: YES
+
+                           JAVA: OFF
+                  JAVA Compiler:  
+
+Features:
+---------
+                     Parallel HDF5: ON
+  Parallel Filtered Dataset Writes: ON
+                Large Parallel I/O: ON
+                High-level library: ON
+Dimension scales w/ new references: 
+                  Build HDF5 Tests: OFF
+                  Build HDF5 Tools: OFF
+                   Build GIF Tools: 
+                      Threadsafety: OFF
+               Default API mapping: v110
+    With deprecated public symbols: ON
+            I/O filters (external):  DEFLATE
+                               MPE: 
+                        Direct VFD: 
+                        Mirror VFD: 
+                (Read-Only) S3 VFD: 
+              (Read-Only) HDFS VFD: 
+                           dmalloc: 
+    Packages w/ extra debug output: 
+                       API Tracing: OFF
+              Using memory checker: OFF
+   Memory allocation sanity checks: OFF
+            Function Stack Tracing: OFF
+                  Use file locking: best-effort
+         Strict File Format Checks: OFF
+      Optimization Instrumentation: 

@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.19/bin/cc  -std=c99  CMakeFiles/H5detect.dir/H5detect.c.o -o ../bin/H5detect  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" 

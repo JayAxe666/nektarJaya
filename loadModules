@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export CRAY_ADD_RPATH=yes
+
+module -q load cpe/22.12
+module -q load PrgEnv-gnu
+module -q load cmake

@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.19/bin/cc  -std=c99  CMakeFiles/mirror_server_stop.dir/mirror_server_stop.c.o -o ../../bin/mirror_server_stop  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../bin/libhdf5.so.200.3.0 -ldl 

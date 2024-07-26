@@ -1,0 +1,1 @@
+cmd='CC=/opt/cray/pe/craype/2.7.19/bin/cc;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/ThirdParty/fftw-3.2.2/configure;--prefix=/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/dist;--libdir=/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/dist/lib;--quiet;--enable-shared;--disable-dependency-tracking'

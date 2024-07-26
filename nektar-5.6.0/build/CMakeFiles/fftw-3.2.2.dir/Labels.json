@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/fftw-3.2.2"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/fftw-3.2.2.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/fftw-3.2.2-complete.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-build.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-configure.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-download.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-install.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-mkdir.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-patch.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/fftw-3.2.2-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fftw-3.2.2"
+		],
+		"name" : "fftw-3.2.2"
+	}
+}

@@ -1,0 +1,7 @@
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/install/strip.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/install/local.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/install.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/list_install_components.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/rebuild_cache.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/edit_cache.dir
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/tinyxml-2.6.2/CMakeFiles/tinyxml.dir

@@ -1,0 +1,1 @@
+/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/scotch-6.0.4/src/Make.inc/Makefile.inc.x86-64_pc_linux2

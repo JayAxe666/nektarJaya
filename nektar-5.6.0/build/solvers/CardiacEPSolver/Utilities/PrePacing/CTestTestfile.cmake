@@ -1,0 +1,12 @@
+# CMake generated Testfile for 
+# Source directory: /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing
+# Build directory: /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/solvers/CardiacEPSolver/Utilities/PrePacing
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(PrePacing_Courtemanche "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/tests/Tester" "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/Tests/Courtemanche.tst")
+set_tests_properties(PrePacing_Courtemanche PROPERTIES  _BACKTRACE_TRIPLES "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/cmake/NektarCommon.cmake;283;ADD_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;3;ADD_NEKTAR_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;0;")
+add_test(PrePacing_CourtemancheAF "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/tests/Tester" "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/Tests/CourtemancheAF.tst")
+set_tests_properties(PrePacing_CourtemancheAF PROPERTIES  _BACKTRACE_TRIPLES "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/cmake/NektarCommon.cmake;283;ADD_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;4;ADD_NEKTAR_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;0;")
+add_test(PrePacing_FentonKarma "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/tests/Tester" "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/Tests/FentonKarma.tst")
+set_tests_properties(PrePacing_FentonKarma PROPERTIES  _BACKTRACE_TRIPLES "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/cmake/NektarCommon.cmake;283;ADD_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;5;ADD_NEKTAR_TEST;/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/solvers/CardiacEPSolver/Utilities/PrePacing/CMakeLists.txt;0;")

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/hdf5-1.12.3"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/hdf5-1.12.3.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/hdf5-1.12.3-complete.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-build.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-configure.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-download.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-install.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-mkdir.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-patch.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/hdf5-1.12.3-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hdf5-1.12.3"
+		],
+		"name" : "hdf5-1.12.3"
+	}
+}

@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.19/bin/cc  -std=c99  CMakeFiles/mirror_server.dir/mirror_remote.c.o CMakeFiles/mirror_server.dir/mirror_server.c.o CMakeFiles/mirror_server.dir/mirror_writer.c.o -o ../../bin/mirror_server  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../bin/libhdf5.so.200.3.0 -ldl 

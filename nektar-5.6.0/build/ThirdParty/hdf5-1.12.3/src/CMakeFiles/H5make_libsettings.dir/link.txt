@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.19/bin/cc  -std=c99  CMakeFiles/H5make_libsettings.dir/H5make_libsettings.c.o -o ../bin/H5make_libsettings  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" 

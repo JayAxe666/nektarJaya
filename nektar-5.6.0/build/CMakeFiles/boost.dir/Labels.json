@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/boost"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/boost.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles/boost-complete.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-build.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-conf-project-conf.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-configure.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-download.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-install.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-mkdir.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-patch.rule"
+		},
+		{
+			"file" : "/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/stamp/boost-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost"
+		],
+		"name" : "boost"
+	}
+}

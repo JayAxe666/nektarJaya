@@ -1,0 +1,2 @@
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ar qc libxxt.a CMakeFiles/xxt.dir/src/xxt.c.o CMakeFiles/xxt.dir/src/sparse_cholesky.c.o
+/opt/cray/pe/cce/15.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ranlib libxxt.a

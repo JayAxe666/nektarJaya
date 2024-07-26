@@ -1,0 +1,10 @@
+prefix=/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/dist
+exec_prefix=${prefix}
+libdir=/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/ThirdParty/dist/lib
+includedir=${prefix}/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.2.2
+Libs: -L${libdir} -lfftw3 -lm
+Cflags: -I${includedir}
