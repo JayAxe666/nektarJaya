@@ -569,7 +569,6 @@ library/StdRegions/clean: library/StdRegions/CMakeFiles/StdRegions.dir/clean
 
 # Recursive "all" directory target.
 solvers/all: solvers/ADRSolver/all
-solvers/all: solvers/ADRSolverJaya/all
 solvers/all: solvers/AcousticSolver/all
 solvers/all: solvers/CardiacEPSolver/all
 solvers/all: solvers/CompressibleFlowSolver/all
@@ -585,7 +584,6 @@ solvers/all: solvers/ShallowWaterSolver/all
 
 # Recursive "preinstall" directory target.
 solvers/preinstall: solvers/ADRSolver/preinstall
-solvers/preinstall: solvers/ADRSolverJaya/preinstall
 solvers/preinstall: solvers/AcousticSolver/preinstall
 solvers/preinstall: solvers/CardiacEPSolver/preinstall
 solvers/preinstall: solvers/CompressibleFlowSolver/preinstall
@@ -601,7 +599,6 @@ solvers/preinstall: solvers/ShallowWaterSolver/preinstall
 
 # Recursive "clean" directory target.
 solvers/clean: solvers/ADRSolver/clean
-solvers/clean: solvers/ADRSolverJaya/clean
 solvers/clean: solvers/AcousticSolver/clean
 solvers/clean: solvers/CardiacEPSolver/clean
 solvers/clean: solvers/CompressibleFlowSolver/clean
@@ -629,22 +626,6 @@ solvers/ADRSolver/preinstall:
 # Recursive "clean" directory target.
 solvers/ADRSolver/clean: solvers/ADRSolver/CMakeFiles/ADRSolver.dir/clean
 .PHONY : solvers/ADRSolver/clean
-
-#=============================================================================
-# Directory level rules for directory solvers/ADRSolverJaya
-
-# Recursive "all" directory target.
-solvers/ADRSolverJaya/all: solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all
-.PHONY : solvers/ADRSolverJaya/all
-
-# Recursive "preinstall" directory target.
-solvers/ADRSolverJaya/preinstall:
-.PHONY : solvers/ADRSolverJaya/preinstall
-
-# Recursive "clean" directory target.
-solvers/ADRSolverJaya/clean: solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/clean
-.PHONY : solvers/ADRSolverJaya/clean
-
 
 #=============================================================================
 # Directory level rules for directory solvers/AcousticSolver
@@ -1299,42 +1280,6 @@ ADRSolver: solvers/ADRSolver/CMakeFiles/ADRSolver.dir/rule
 solvers/ADRSolver/CMakeFiles/ADRSolver.dir/clean:
 	$(MAKE) $(MAKESILENT) -f solvers/ADRSolver/CMakeFiles/ADRSolver.dir/build.make solvers/ADRSolver/CMakeFiles/ADRSolver.dir/clean
 .PHONY : solvers/ADRSolver/CMakeFiles/ADRSolver.dir/clean
-
-#=============================================================================
-# Target rules for target solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir
-
-# All Build rule for target.
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/LibUtilities/CMakeFiles/LibUtilities.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/LocalRegions/CMakeFiles/LocalRegions.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/SpatialDomains/CMakeFiles/SpatialDomains.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/StdRegions/CMakeFiles/StdRegions.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/Collections/CMakeFiles/Collections.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/MultiRegions/CMakeFiles/MultiRegions.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/MatrixFreeOps/CMakeFiles/MatrixFreeOps.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/SolverUtils/CMakeFiles/SolverUtils.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/GlobalMapping/CMakeFiles/GlobalMapping.dir/all
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all: library/FieldUtils/CMakeFiles/FieldUtils.dir/all
-	$(MAKE) $(MAKESILENT) -f solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/build.make solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/depend
-	$(MAKE) $(MAKESILENT) -f solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/build.make solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles --progress-num=1 "Built target ADRSolverJaya"
-.PHONY : solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all
-
-# Build rule for subdir invocation for target.
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles 55
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /work/ecseak05/ecseak05/jaya/nektar_basic/nektar/nektar-5.6.0/build/CMakeFiles 0
-.PHONY : solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/rule
-
-# Convenience name for target.
-ADRSolverJaya: solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/rule
-.PHONY : ADRSolverJaya
-
-# clean rule for target.
-solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/clean:
-	$(MAKE) $(MAKESILENT) -f solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/build.make solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/clean
-.PHONY : solvers/ADRSolverJaya/CMakeFiles/ADRSolverJaya.dir/clean
-
 
 #=============================================================================
 # Target rules for target solvers/AcousticSolver/CMakeFiles/APESolver.dir
